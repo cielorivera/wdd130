@@ -6,9 +6,7 @@
 
 :root {
     --color-yellow-sun: #e5c48a;
-    --color-salmon-pink: #f08c5b;
-    --color-coral-reef: #b87163;
-    --color-ocean-watter: #3e6778;
+    --color-salmon-pink: #e95910;
     --color-denim-blue: #1e2f4f;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -74,7 +72,7 @@ h2 {
     background-color: var(--color-salmon-pink);
 }
 
-article {
+.hero article {
     top: 18rem;
     width: 28rem;
     left: 42%;
