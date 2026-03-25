@@ -4,7 +4,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #fff;
     display: block;
     padding: 20px;
 }
@@ -13,14 +13,40 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0px;
+    box-shadow: 0 0 20px gray;
 }
 
 p {
+    padding: 0;
+}
+
+main {
+    max-width: 850px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 10px;
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 20px black;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid grey;
+    text-align: center;
 }
