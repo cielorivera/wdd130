@@ -38,6 +38,7 @@ nav {
 
 nav a {
     color: var(--font-color-light);
+    text-decoration: none;
 }
 
 main {
