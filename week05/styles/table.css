@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+thead th,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
